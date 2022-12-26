@@ -17,6 +17,6 @@
 
 # Database & libraries
 
-1. This solution is using Firebase (noSQL database).
+1. Solution implemented with Firestore (noSQL database).
 2. Integrated with Algolia, to enable Full-Text Search features.
 3. Solution implemented with Lodash, which provides utility functions for common programming tasks.
