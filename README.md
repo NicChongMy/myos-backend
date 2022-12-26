@@ -104,7 +104,7 @@ Method for customer to make payment and create order.
 **Assumption**
 1. Payment gateway is implemented correctly.
 2. Validated customer have active cart and pending for payment.
-3. Products details in cart item is always update to date and available.
+3. Products details in cart item is always update to date and available for purchase.
 
 ### Parameters
 | Keys        | Value           |            |
