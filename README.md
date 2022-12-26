@@ -138,5 +138,9 @@ Method for customer to make payment and create order.
 }
 ```
 
+![flow1](https://user-images.githubusercontent.com/30789775/209542408-7085ee72-9cb5-49a3-8797-ba8e91ca62a7.png)
+![flow2](https://user-images.githubusercontent.com/30789775/209542418-1b16900e-04e7-4f14-a7a6-6d72687b3da7.png)
+![flow3](https://user-images.githubusercontent.com/30789775/209542426-bc64a821-c745-4939-89bb-10b19f0355c0.png)
+
 
 
