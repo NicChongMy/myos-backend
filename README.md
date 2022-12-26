@@ -27,4 +27,7 @@
 2. `add-to-cart` - api for customer to add to cart
 3. `create-order` - api for backend to create order
 
-![myos-architecture2022](https://user-images.githubusercontent.com/30789775/209537872-7fb05d04-a73a-4c86-bf9e-5fa6a46eca86.png)
+![myos-architecture2022](https://user-images.githubusercontent.com/30789775/209538029-9810a6d7-aa5b-4116-9a5f-f6d1d1486588.png)
+
+
+
