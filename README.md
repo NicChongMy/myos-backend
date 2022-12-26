@@ -38,5 +38,21 @@
 | searchBy      | `title` or `desc` | Optional |
 | searchText | free text | Optional |
 
+### Response
+```json
+{
+  "data": {
+    "apiData": {
+      "applicationId": "AMWRwsbWisbqRZ5M3tRL",
+      "apiKey": "AMWRwsbWisbqRZ5M3tRL",
+      "url": "localhost"
+    },
+    "content": {
+      "productId": "bestselling-pork-patties-4-in-1-bundle-206365001" //product-id
+    }
+  }
+}
+```
+
 
 
