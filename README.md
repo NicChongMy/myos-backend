@@ -11,6 +11,6 @@
 1. Run `tsc app.ts` to convert typescript files to javascript
 2. Run `node app.js` 
 
-#Assumption
+# Environment
 
 1. `serviceAccountKey.json` is connection files to database. This is a very sensitive config files, should not be uploaded into github or other VCS.
