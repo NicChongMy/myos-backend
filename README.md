@@ -32,11 +32,11 @@
 # API#1 - fetch-product-lists
 
 ### Parameters
-| Keys        | Value           |
-| ------------- |:-------------:|
-| sortBy    | priceASC or priceDESC |
-| searchBy      | title or desc |
-| searchText | free text |
+| Keys        | Value           |            |
+| ------------- |:-------------:|:-------------:|
+| sortBy    | priceASC or priceDESC | Optional |
+| searchBy      | title or desc | Optional |
+| searchText | free text | Optional |
 
 
 
