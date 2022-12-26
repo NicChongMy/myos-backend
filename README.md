@@ -41,7 +41,7 @@ Can be used as sorting, filtering, searching as well.
 | ------------- |:-------------:|:-------------:|
 | sortBy    | `priceASC` or `priceDESC` | Optional |
 | searchBy      | `title` or `desc` | Optional |
-| searchText | free text | Optional |
+| searchText | string | Optional |
 
 ### Responses
 ```json
@@ -62,6 +62,38 @@ Can be used as sorting, filtering, searching as well.
 {
   "status": 200,
   "data": []
+}
+```
+# API#2 - add-to-cart (POST)
+
+## About this API
+Method used to add products to customer's cart
+
+**Assumption**
+1. Validated the productId and status is OK for add to cart.
+2. Validated the customerId is authorised and have permission for aadd to cart.
+3. All details submitted to API is fetched via preRequisited api such as `GetProductDetails`
+
+### Parameters
+| Keys        | Value           |            |
+| ------------- |:-------------:|:-------------:|
+| customerId    | string | Mandatory |
+| productId      | string | Mandatory |
+| qty | number | Mandatory |
+| price | number | Mandatory |
+
+### Responses
+```json
+{
+  "status": 200,
+  "data": { 
+    "input": {
+      "customerId":"",
+      "productId":"",
+      "qty":"",
+      "price":""
+      }
+    }
 }
 ```
 
