@@ -34,8 +34,8 @@
 ### Parameters
 | Keys        | Value           |            |
 | ------------- |:-------------:|:-------------:|
-| sortBy    | priceASC or priceDESC | Optional |
-| searchBy      | title or desc | Optional |
+| sortBy    | `priceASC` or `priceDESC` | Optional |
+| searchBy      | `title` or `desc` | Optional |
 | searchText | free text | Optional |
 
 
