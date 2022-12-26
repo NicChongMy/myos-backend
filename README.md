@@ -26,3 +26,5 @@
 1. `fetch-product-lists` - default api for product list, can be used as filter/sorting as well
 2. `add-to-cart` - api for customer to add to cart
 3. `create-order` - api for backend to create order
+
+![myos-architecture2022](https://user-images.githubusercontent.com/30789775/209537872-7fb05d04-a73a-4c86-bf9e-5fa6a46eca86.png)
