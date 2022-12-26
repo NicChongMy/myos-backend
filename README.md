@@ -21,7 +21,7 @@
 2. Integrated with Algolia, to enable Full-Text Search features.
 3. Solution implemented with Lodash, which provides utility functions for common programming tasks.
 
-# Api list
+# Architecture & Api list
 
 1. `fetch-product-lists` - default api for product list, can be used as filter/sorting as well
 2. `add-to-cart` - api for customer to add to cart
