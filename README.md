@@ -14,3 +14,9 @@
 # Environment
 
 1. `serviceAccountKey.json` is connection files to database. This is a very sensitive config files, should not be uploaded into github or other VCS.
+
+# Database & libraries
+
+1. This solution is using Firebase (noSQL database).
+2. Integrated with Algolia, to enable Full-Text Search features.
+3. Solution implemented with Lodash, which provides utility functions for common programming tasks.
