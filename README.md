@@ -5,10 +5,10 @@
 # How to install
 
 1. Git clone this project via `git clone https://github.com/NicChongMy/myos-backend.git`
-2. Run `npm install` to install required library
+2. Run `npm install` to install required libraries
 
 # How to run on localhost
-1. Run `tsc app.ts` to convert our typescript files to javascript
+1. Run `tsc app.ts` to convert typescript files to javascript
 2. Run `node app.js` 
 
 #Assumption
