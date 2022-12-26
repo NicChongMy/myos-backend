@@ -204,7 +204,6 @@ function processOrder(customerId: string) {
     .get()
     .then(async (result) => {
       const custCartDetails = result.data() as iCartObj;
-      console.log('custCartDetails', custCartDetails);
       const custCartItems = custCartDetails.cartItem;
 
       const totalGMV =
