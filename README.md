@@ -13,7 +13,7 @@
 
 # Environment
 
-1. `serviceAccountKey.json` is connection files to database. // This is a very sensitive config files, in production should not be uploaded into github or other VCS.
+1. `serviceAccountKey.json` is connection files to database. // This is a very sensitive config files. `SHOULD NOT` be uploaded into github or other VCS.
 
 # Database & libraries
 
