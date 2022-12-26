@@ -29,7 +29,12 @@
 
 ![myos-architecture2022](https://user-images.githubusercontent.com/30789775/209538029-9810a6d7-aa5b-4116-9a5f-f6d1d1486588.png)
 
-# API#1 - fetch-product-lists
+# API#1 - fetch-product-lists (POST)
+
+## About this API
+Method used to fetch product listing. 
+
+Can be used as sorting, filtering, searching as well.
 
 ### Parameters
 | Keys        | Value           |            |
@@ -38,19 +43,25 @@
 | searchBy      | `title` or `desc` | Optional |
 | searchText | free text | Optional |
 
-### Response
+### Responses
 ```json
 {
-  "data": {
-    "apiData": {
-      "applicationId": "AMWRwsbWisbqRZ5M3tRL",
-      "apiKey": "AMWRwsbWisbqRZ5M3tRL",
-      "url": "localhost"
-    },
-    "content": {
-      "productId": "bestselling-pork-patties-4-in-1-bundle-206365001" //product-id
+  "status": 200,
+  "data": [
+    { 
+    "title":"",
+    "price":"",
+    "desc":"",
+    "qty":"",
+    "featuredImg":"" 
     }
-  }
+  ]
+}
+```
+```json
+{
+  "status": 200,
+  "data": []
 }
 ```
 
