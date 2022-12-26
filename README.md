@@ -96,6 +96,47 @@ Method used to add products to customer's cart
     }
 }
 ```
+# API#3 - create-order (POST)
+
+## About this API
+Method for customer to make payment and create order.
+
+**Assumption**
+1. Payment gateway is implemented correctly.
+2. Validated customer have active cart and pending for payment.
+3. Products details in cart item is always update to date.
+
+### Parameters
+| Keys        | Value           |            |
+| ------------- |:-------------:|:-------------:|
+| fakePaymentStatus    | `true` or `false` | Mandatory |
+| customerId      | string | Mandatory |
+
+### Responses
+```json
+{
+  "status": 200,
+  "data": { 
+    "totalValue":"",
+    "orderId":"",
+    "customerId":"",
+    "customerName":"",
+    "customerAddress":"",
+    "cartItem":[],
+    "paymentTransactionId":""
+    }
+}
+```
+```json
+{
+  "status": 200,
+  "data": { 
+    "customerId":"",
+    "orderId":null,
+    "paymentStatus":"failed"
+    }
+}
+```
 
 
 
