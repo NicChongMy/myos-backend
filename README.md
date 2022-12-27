@@ -1,3 +1,6 @@
+# About this project
+This is a sample project that demonstrate small online shop with product listing, add to cart and checkout features.
+
 # Requirement
 
 1. NodeJS v16.14.0
