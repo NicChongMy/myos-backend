@@ -1,5 +1,5 @@
 # About this project
-This is a sample project that demonstrate small online shop with product listing, add to cart and checkout features.
+This is a sample project that only demonstrate product listing, add to cart and checkout features for an small online shop. Other features are not within the scope of this project.
 
 # Requirement
 
